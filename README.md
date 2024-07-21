@@ -87,6 +87,8 @@ How to Use
 Clone the repository:
 Copy code
 git clone https://github.com/Akhilanfsdpy/facebook-clone.git
+
+
 Create a new branch:
 sh
 Copy code
