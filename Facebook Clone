@@ -1,83 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>Facebook Clone</title>
-</head>
-<body>
-    <!-- header starts -->
-    <div class="header">
-        <div class="header__left">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="">
-            <div class="header__input">
-                <span class="material-icons">search</span>
-                <input type="text" placeholder="Search Facebook">
-            </div>
-        </div>
-        <div class="header__middle">
-            <div class="header__option active">
-                <span class="material-icons">home</span>
-            </div>
-            <div class="header__option">
-                <span class="material-icons">flag</span>
-            </div>
-            <div class="header__option">
-                <span class="material-icons">subscriptions</span>
-            </div>
-            <div class="header__option">
-                <span class="material-icons">storefront</span>
-            </div>
-            <div class="header__option">
-                <span class="material-icons">supervised_user_circle</span>
-            </div>
-        </div>
-        <div class="header__right">
-            <div class="header_info">
-                <img class="img__avatar" src="https://wallpaperaccess.com/full/9355637.jpg" alt="">
-                <div class="top__info">
-                    <h3>Akhilan</h3>
-                </div>
-            </div>
-            <span class="material-icons">add</span>
-            <span class="material-icons">forum</span>
-            <span class="material-icons">notifications_active</span>
-            <span class="material-icons">expand_more</span>
-        </div>
-    </div>
-    <!-- header ends -->
-    <!-- main body starts -->
-    <div class="main__body">
-        <!-- sidebar starts -->
-        <div class="sidebar">
-            <div class="sidebar__row">
-                <img class="img__avatar" src="https://wallpaperaccess.com/full/9355637.jpg" alt="">
-                <h4>Akhilan</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">local_hospital</span>
-                <h4>Covid 19 Information center</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">emoji_flags</span>
-                <h4>Pages</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">people</span>
-                <h4>People</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">chat</span>
-                <h4>Messenger</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">storefront</span>
-                <h4>Marketplace</h4>
-            </div>
-            <div class="sidebar__row">
-                <span class="material-icons">video_library</span>
-                <h4>Videos</h4>
-            </div>
+Facebook Clone
+A simple clone of Facebook's interface using HTML and CSS.
+
+Table of Contents
+Setup
+HTML Structure
+CSS Styling
+Responsive Design
+JavaScript (Optional)
+Testing
+Screenshots
+License
+Setup
+Create a new folder for the project.
+Initialize a Git repository.
+Create index.html and styles.css files.
+HTML Structure
+Header Section
+Create a <header> element.
+Add a container for the left section with a logo image.
+Add a search bar with an input field.
+Add navigation options with icons.
+Add user profile information with an avatar image and user name.
+Sidebar Section
+Create a <div> for the sidebar.
+Add navigation rows with icons and labels.
+Feed Section
+Create a <div> for the feed.
+Add a story reel section with individual story items.
+Add a status updater section with input field and action buttons.
+Add a statuses section to display user posts.
+Widgets Section
+Create a <div> for the widgets.
+Add any widgets or additional components.
+CSS Styling
+Global Styles
+Set global margin to zero.
+Header Styling
+Style the header with padding, flexbox layout, and box-shadow.
+Style the left section with logo image dimensions.
+Style the search bar with padding, background color, and border-radius.
+Style navigation options with hover effects and active states.
+Style the right section with user profile info and icon spacing.
+Sidebar Styling
+Style sidebar rows with flexbox layout, padding, and hover effects.
+Style icons with size and color.
+Story Reel Styling
+Style story items with background properties, dimensions, and hover effects.
+Style avatar images and story labels.
+Feed Styling
+Style the feed container with padding and flexbox layout.
+Status Updater Styling
+Style the status updater container with background color, padding, and box-shadow.
+Style the input field with padding, background color, and border-radius.
+Style action buttons with flexbox layout and hover effects.
+Statuses Styling
+Style individual status posts with padding, background color, and box-shadow.
+Style the top section with flexbox layout and avatar image spacing.
+Style the middle section with text padding and margin.
+Style the bottom section with flexbox layout and hover effects.
+Responsive Design
+Add media queries for different screen sizes.
+Hide the sidebar, header input, and widgets on smaller screens.
+Adjust feed width and padding for various screen sizes.
+Ensure the story reel is scrollable on smaller screens.
+JavaScript (Optional)
+Implement dynamic interactions if required.
+Testing
+Open index.html in a web browser.
+Verify the layout and styles match the Facebook interface.
+Test responsiveness on different screen sizes.
+Screenshots
+Capture screenshots of the header, sidebar, and feed sections.
+Save screenshots in the screenshots folder.
+License
+This project is open-source and available under the MIT License.
+
