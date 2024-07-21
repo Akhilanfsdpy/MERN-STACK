@@ -1,76 +1,12 @@
-Facebook Clone
-A simple clone of Facebook's interface using HTML and CSS.
-
-Table of Contents
-Setup
-HTML Structure
-CSS Styling
-Responsive Design
-JavaScript (Optional)
-Testing
-Screenshots
-License
-Setup
-Create a new folder for the project.
-Initialize a Git repository.
-Create index.html and styles.css files.
-HTML Structure
-Header Section
-Create a <header> element.
-Add a container for the left section with a logo image.
-Add a search bar with an input field.
-Add navigation options with icons.
-Add user profile information with an avatar image and user name.
-Sidebar Section
-Create a <div> for the sidebar.
-Add navigation rows with icons and labels.
-Feed Section
-Create a <div> for the feed.
-Add a story reel section with individual story items.
-Add a status updater section with input field and action buttons.
-Add a statuses section to display user posts.
-Widgets Section
-Create a <div> for the widgets.
-Add any widgets or additional components.
-CSS Styling
-Global Styles
-Set global margin to zero.
-Header Styling
-Style the header with padding, flexbox layout, and box-shadow.
-Style the left section with logo image dimensions.
-Style the search bar with padding, background color, and border-radius.
-Style navigation options with hover effects and active states.
-Style the right section with user profile info and icon spacing.
-Sidebar Styling
-Style sidebar rows with flexbox layout, padding, and hover effects.
-Style icons with size and color.
-Story Reel Styling
-Style story items with background properties, dimensions, and hover effects.
-Style avatar images and story labels.
-Feed Styling
-Style the feed container with padding and flexbox layout.
-Status Updater Styling
-Style the status updater container with background color, padding, and box-shadow.
-Style the input field with padding, background color, and border-radius.
-Style action buttons with flexbox layout and hover effects.
-Statuses Styling
-Style individual status posts with padding, background color, and box-shadow.
-Style the top section with flexbox layout and avatar image spacing.
-Style the middle section with text padding and margin.
-Style the bottom section with flexbox layout and hover effects.
-Responsive Design
-Add media queries for different screen sizes.
-Hide the sidebar, header input, and widgets on smaller screens.
-Adjust feed width and padding for various screen sizes.
-Ensure the story reel is scrollable on smaller screens.
-JavaScript (Optional)
-Implement dynamic interactions if required.
-Testing
-Open index.html in a web browser.
-Verify the layout and styles match the Facebook interface.
-Test responsiveness on different screen sizes.
-Screenshots
-Capture screenshots of the header, sidebar, and feed sections.
-Save screenshots in the screenshots folder.
-License
-This project is open-source and available under the MIT License.
+facebook-clone/
+│
+├── index.html
+├── style.css
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+└── assets/
+    └── images/
+        └── logo.png
+        └── avatar.png
