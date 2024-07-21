@@ -20,6 +20,8 @@ How to Use
 Clone the repository:
 Copy code
 git clone https://github.com/yourusername/facebook-clone.git
+
+
 Open index.html in your web browser to view the Facebook clone interface.
 Contributing
 Feel free to fork this repository, create new branches, and submit pull requests. Any contributions to improve the code or add new features are welcome.
